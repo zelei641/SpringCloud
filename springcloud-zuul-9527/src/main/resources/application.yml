@@ -1,0 +1,26 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+zuul:
+  routes:
+    mydept:
+      serviceId: springcloud-client-dept  #注册中心的service id
+      path: /eureka-consumer/**  #使用这个前缀加路径名称就可以访问这个注册中心的服务
+    user:
+      serviceId: springcloud-provider-dept #注册中心的service id
+      path: /eureka-privoidr/**  #使用这个前缀加路径名称就可以访问这个注册中心的服务
+  ignored-services: springcloud-provider-dept,springcloud-client-dept
+  prefix: /atzelei #设置公共的前缀  这个公共前缀是访问所有注册中心的服务的前缀 访问任何一个注册中心的服务都需要加这个前缀
+info:
+  app.name: atzelei-springcloud
+  company.name: atzelei.study.com

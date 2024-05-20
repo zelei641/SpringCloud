@@ -1,0 +1,12 @@
+
+L	java:S106""+Replace this use of System.out by a logger.(»«Åûÿÿÿÿ8·ÛÈÏå1
+F	java:S106-"+Replace this use of System.out by a logger.(·ÕË_8¸ÛÈÏå1
+G	java:S1064"+Replace this use of System.out by a logger.(¸İØ8Ôî®ì1
+`
+java:S1128">Remove this unused import 'com.atzelei.springcloud.pojo.Dept'.(¢¸ÛËÿÿÿÿÿ8Çî¦‡ğ1
+[
+java:S1128">Remove this unused import 'com.atzelei.springcloud.pojo.user'.(šÎ¦¼8Èî¦‡ğ1
+e
+java:S1128"HRemove this unused import 'com.atzelei.springcloud.service.DeptService'.(ÙÏ¦8Èî¦‡ğ1
+]
+java:S1128"@Remove this unused import 'org.apache.ibatis.annotations.Param'.(á¬Ó²8Èî¦‡ğ1

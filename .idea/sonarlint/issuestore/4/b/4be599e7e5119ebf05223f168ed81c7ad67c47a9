@@ -1,0 +1,12 @@
+
+š
+java:S1130&"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(Œ¦•“8áÊî¡ù1
+@	java:S106'"+Replace this use of System.out by a logger.(ÆÑÀ…
+[
+java:S1155*">Use isEmpty() to check whether the collection is empty or not.(°‰óË8ãÊî¡ù1
+W
+java:S10756"ARefactor your code to get this URI from a customizable parameter.(›·µ‰
+A
+java:S1075?"&Remove this hard-coded path-delimiter.(‡‹Àèøÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8èÊî¡ù1

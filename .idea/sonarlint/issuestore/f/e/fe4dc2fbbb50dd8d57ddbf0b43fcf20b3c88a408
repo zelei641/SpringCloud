@@ -1,0 +1,6 @@
+
+F	java:S1061"+Replace this use of System.out by a logger.(·ÕË_8…×š‡ğ1
+G	java:S1068"+Replace this use of System.out by a logger.(¸İØ8†×š‡ğ1
+[
+java:S1128
+"9Remove this unused import 'javax.xml.ws.ResponseWrapper'.(°ºç¢ÿÿÿÿÿ8Ğ›‡ğ1

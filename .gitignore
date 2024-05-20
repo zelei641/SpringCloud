@@ -1,0 +1,15 @@
+# Project exclude paths
+/myFeign-8764/target/
+/springcloud-api/target/
+/springcloud-consumer-dept-85/target/
+/springcloud-consumer-dept-feign-81/target/
+/springcloud-consumer-hystrix-dashboard/target/
+/springcloud-eureka-7001/target/
+/springcloud-eureka-7002/target/
+/springcloud-eureka-7003/target/
+/springcloud-provider-dept-8001/target/
+/springcloud-provider-dept-8002/target/
+/springcloud-provider-dept-8003/target/
+/springcloud-provider-dept-hysrtix-8001/target/
+/springcloud-provider-performinfo-8081/target/
+/springcloud-zuul-9527/target/

@@ -1,0 +1,7 @@
+
+y
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "restTemplate".(ó†í
+Q
+java:S1128";Remove this unused import 'com.netflix.loadbalancer.IRule'.(∫ﬂ›Ô
+V
+java:S1128"@Remove this unused import 'com.netflix.loadbalancer.RandomRule'.(¢’œÛ

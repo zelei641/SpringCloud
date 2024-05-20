@@ -1,0 +1,12 @@
+server:
+  port: 85
+#Eureka配置
+eureka:
+  client:
+    register-with-eureka: true #不向eureka中注册自己
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+spring:
+  application:
+    name: springcloud-client-dept
