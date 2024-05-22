@@ -38,6 +38,17 @@ public class PerforInfoController
         return ResultUtils.success(allPerforInfo);
     }
 
+    @GetMapping("/getById")
+    public BaseResponse<PerformInfo> getAllPerformInfoById(Integer id)
+    {
+        if (id <= 0)
+        {
+            return ResultUtils.error(ErrorCode.NULL_ERROR);
+        }
+        PerformInfo performInfoById = performInfoService.getPerformInfoById(id);
+        return ResultUtils.success(performInfoById);
+    }
+
     @PostMapping("/byStrGetInfo")
     public BaseResponse<List<PerformInfo>> byStrGetPerformInfo(@RequestBody String matchStr) throws UnsupportedEncodingException {
         System.out.println("matchStr = " + matchStr);
@@ -59,6 +70,20 @@ public class PerforInfoController
        }
 
         int b = performInfoService.addPerforminfo(requestPerformInfo);
+
+        System.out.println("b = " + b);
+        return ResultUtils.success(b);
+    }
+
+    @GetMapping ("/deletePerformInfo")
+    public BaseResponse<Integer> deletePerformInfo(Integer performInfoId) {
+
+        if (performInfoId <= 0)
+        {
+            return ResultUtils.error(ErrorCode.NULL_ERROR);
+        }
+
+        int b = performInfoService.deletePerformInfo(performInfoId);
 
         System.out.println("b = " + b);
         return ResultUtils.success(b);

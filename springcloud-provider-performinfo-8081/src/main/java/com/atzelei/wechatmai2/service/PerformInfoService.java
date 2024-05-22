@@ -13,4 +13,8 @@ public interface PerformInfoService
     public List<PerformInfo> byMatchStrInfo(String matchStr);
 
     public int addPerforminfo(PerformInfoRequest performInfoRequest);
+
+    public int deletePerformInfo(Integer id);
+
+    public PerformInfo getPerformInfoById(Integer id);
 }

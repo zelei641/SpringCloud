@@ -33,4 +33,14 @@ public class PerformInfoServiceImpl implements PerformInfoService {
     public int addPerforminfo(PerformInfoRequest performInfoRequest) {
         return performInfoMapper.addPerformInfo(performInfoRequest);
     }
+
+    @Override
+    public int deletePerformInfo(Integer id) {
+        return performInfoMapper.deletePerformInfo(id);
+    }
+
+    @Override
+    public PerformInfo getPerformInfoById(Integer id) {
+        return performInfoMapper.getPerformInfoById(id);
+    }
 }

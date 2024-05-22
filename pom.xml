@@ -23,6 +23,7 @@
         <module>myFeign-8764</module>
         <module>auth-server</module>
         <module>springcloud-provider-performinfo-8081</module>
+        <module>springcloud-config-server-3344</module>
     </modules>
 
     <properties>

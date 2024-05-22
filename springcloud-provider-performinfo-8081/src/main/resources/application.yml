@@ -21,7 +21,7 @@ eureka:
 mybatis:
   type-aliases-package: com/atzelei/wechatmai2/model/pojo
   config-location: classpath:mybatis-config.xml
-  mapper-locations: classpath:mybatis/mapper/PerformInfoMapper.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
 file-save-path: D:\Java idea porject\weChatMai2//image//
 logging:
   level:
