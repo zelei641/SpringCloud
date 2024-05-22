@@ -1,20 +1,21 @@
 
 š
-java:S1130*"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(Œ¦•“8Ã·¤ªù1
-G	java:S106+"+Replace this use of System.out by a logger.(ÆÑÀ…8Ä·¤ªù1
+java:S11305"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(Œ¦•“8Ã·¤ªù1
+G	java:S1066"+Replace this use of System.out by a logger.(ÆÑÀ…8Ä·¤ªù1
 [
-java:S1155.">Use isEmpty() to check whether the collection is empty or not.(°‰óË8Ä·¤ªù1
-G	java:S106?"+Replace this use of System.out by a logger.(‘ÙëÚ8ıç—«ù1
+java:S11559">Use isEmpty() to check whether the collection is empty or not.(°‰óË8Ä·¤ªù1
+G	java:S106J"+Replace this use of System.out by a logger.(‘ÙëÚ8ıç—«ù1
+G	java:S106X"+Replace this use of System.out by a logger.(‘ÙëÚ8µÏãóù1
 ^
-java:S1075H"ARefactor your code to get this URI from a customizable parameter.(›·µ‰8Æ·¤ªù1
+java:S1075a"ARefactor your code to get this URI from a customizable parameter.(›·µ‰8Æ·¤ªù1
 H
-java:S1075Q"&Remove this hard-coded path-delimiter.(‡‹Àèøÿÿÿÿ8É·¤ªù1
+java:S1075j"&Remove this hard-coded path-delimiter.(‡‹Àèøÿÿÿÿ8É·¤ªù1
 p
 java:S1128
-"NRemove this unused import 'com.sun.org.apache.xpath.internal.operations.Bool'.(™¦èûÿÿÿÿ8€õ¼ªù1
+"NRemove this unused import 'com.sun.org.apache.xpath.internal.operations.Bool'.(™¦èûÿÿÿÿ8§Ú×ôù1
 ]
-java:S1128"@Remove this unused import 'org.springframework.beans.BeanUtils'.(ŠğÄÜ8€õ¼ªù1
+java:S1128"@Remove this unused import 'org.springframework.beans.BeanUtils'.(ŠğÄÜ8§Ú×ôù1
 M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8€õ¼ªù1
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8§Ú×ôù1
 H
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8€õ¼ªù1
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8§Ú×ôù1

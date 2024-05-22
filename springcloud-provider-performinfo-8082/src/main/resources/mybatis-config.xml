@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--    设置别名-->
+    <typeAliases>
+        <typeAlias alias="perinfo" type="com.atzelei.wechatmai2.model.pojo.PerformInfo"/>
+        <typeAlias alias="perinfoRequest" type="com.atzelei.springcloud.request.PerformInfoRequest"/>
+        <typeAlias alias="user" type="com.atzelei.springcloud.pojo.user"/>
+    </typeAliases>
+
+
+    <!--  绑定接口-->
+    <mappers>
+        <mapper class="com.atzelei.wechatmai2.dao.PerformInfoMapper"/>
+    </mappers>
+
+</configuration>

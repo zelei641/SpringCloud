@@ -1,0 +1,28 @@
+server:
+  port: 8083
+#spring配置
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wechatmai?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  application:
+    name: springcloud-provider-performinfo
+# eureka的配置 服务注册到哪里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+  instance:
+    instance-id: springcloud-provider-performinfo-8083  #修改eureka上的默认信息
+    prefer-ip-address: true
+# mybatis配置
+mybatis:
+  type-aliases-package: com/atzelei/wechatmai2/model/pojo
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+file-save-path: D:\Java idea porject\weChatMai2//image//
+logging:
+  level:
+    org.springframework.boot.autoconfigure: error

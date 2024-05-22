@@ -1,0 +1,12 @@
+
+v
+java:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö¾®ë8š…Í÷ù1
+v
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬°êÃ8š…Í÷ù1
+b
+java:S1854C"ERemove this useless assignment to local variable "performInfoIdList".(ö¾®ë8¨…Í÷ù1
+G	java:S106U"+Replace this use of System.out by a logger.(ˆ’Ëù8ª…Í÷ù1
+n
+java:S1128"LRemove this unused import 'com.atzelei.springcloud.request.UserInfoRequest'.(ØâÔºÿÿÿÿÿ8èÐá÷ù1
+n
+java:S1128	"LRemove this unused import 'com.atzelei.wechatmai2.service.UsermInfoService'.(ª™Çîüÿÿÿÿ8èÐá÷ù1

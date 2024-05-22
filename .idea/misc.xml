@@ -11,6 +11,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/six/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-8003/pom.xml" />
       </set>
     </option>
   </component>

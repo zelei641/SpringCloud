@@ -27,7 +27,7 @@ public class DeptConsumerController
     private RestTemplate restTemplate; //提供多种便捷访问远程http服务的方法,简单的RestFul服务模板
 
     //Ribbon 这里的地址应该是变量 通过服务名访问
-    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-PERFORMINFO-8081";
+    private static final String REST_URL_PREFIX = "http://springcloud-provider-performinfo";
 
     /**
      * 得到所有的performinfo
@@ -41,7 +41,8 @@ public class DeptConsumerController
     }
 
     @PostMapping("/performinfo/byStrGetInfo")
-    public BaseResponse<List<PerformInfo>> byStrGetPerformInfo(@RequestBody String matchStr) throws UnsupportedEncodingException {
+    public BaseResponse<List<PerformInfo>> byStrGetPerformInfo(@RequestBody String matchStr)
+    {
 
         // 创建请求头
         HttpHeaders headers = new HttpHeaders();

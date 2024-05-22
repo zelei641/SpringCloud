@@ -43,7 +43,6 @@ public class DeptController
     /*
     学校作业
      */
-
     @HystrixCommand(fallbackMethod = "ribbonHi")
     @GetMapping("/hi")
     public String getHi()

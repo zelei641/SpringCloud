@@ -1,0 +1,34 @@
+
+d
+java:S1192H"GDefine a constant instead of duplicating this literal "openid" 3 times.(ü•ï¬8å½¡öù1
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ€Ì°8õÿÕòù1
+y
+java:S4144]"\Update this method so that its implementation is not identical to "getLoginUser" on line 80.(¶Ëß8Ñø¡öù1
+\
+java:S1854&"?Remove this useless assignment to local variable "session_key".(Ñ€Ì°8€Öòù1
+M
+java:S1481&"0Remove this unused "session_key" local variable.(Ñ€Ì°8€Öòù1
+G	java:S106T"+Replace this use of System.out by a logger.(ˆ’Ëù8•€Öòù1
+G	java:S106a"+Replace this use of System.out by a logger.(ˆ’Ëù8ö½¡öù1
+l
+java:S1128"ORemove this unused import 'com.atzelei.springcloud.request.PerformInfoRequest'.(˜ÀŸ¸8Ûø¡öù1
+h
+java:S1128"FRemove this unused import 'com.atzelei.wechatmai2.dao.UserInfoMapper'.(û–ú¤øÿÿÿÿ8Ûø¡öù1
+l
+java:S1128"JRemove this unused import 'com.atzelei.wechatmai2.model.pojo.PerformInfo'.(¼›ˆ±ûÿÿÿÿ8Ûø¡öù1
+k
+java:S1128	"NRemove this unused import 'com.atzelei.wechatmai2.service.PerformInfoService'.(ÒûÍ¢8Ûø¡öù1
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8Ûø¡öù1
+n
+java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœÿÿÿÿÿ8Ûø¡öù1
+X
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8Ûø¡öù1
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8Üø¡öù1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Üø¡öù1
+^
+java:S1128"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“8Üø¡öù1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Üø¡öù1

@@ -28,4 +28,11 @@ public class ResultUtils
         return baseResponse;
     }
 
+    //自定义返回
+    public static BaseResponse messageB(ErrorCode errorCode, String description)
+    {
+        BaseResponse baseResponse = new BaseResponse<>(errorCode.getCode(), null, errorCode.getMessage(), description);
+        return baseResponse;
+    }
+
 }

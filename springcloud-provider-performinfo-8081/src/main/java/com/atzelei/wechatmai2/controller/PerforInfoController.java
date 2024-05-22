@@ -7,6 +7,7 @@ import com.atzelei.wechatmai2.service.PerformInfoService;
 import com.atzelei.wechatmai2.utils.Enms.ErrorCode;
 import com.atzelei.wechatmai2.utils.Response.BaseResponse;
 import com.atzelei.wechatmai2.utils.ResultUtils;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,11 +32,19 @@ public class PerforInfoController
     @Value("${file-save-path}")
     private String fileSavePath;
 
+    @HystrixCommand(fallbackMethod = "getAllPerformInfoHystrix")
     @GetMapping("/getAll")
     public BaseResponse<List<PerformInfo>> getAllPerformInfo()
     {
         List<PerformInfo> allPerforInfo = performInfoService.getAllInfo();
         return ResultUtils.success(allPerforInfo);
+    }
+
+    //备选方案
+    public BaseResponse<List<PerformInfo>> getAllPerformInfoHystrix()
+    {
+        List<PerformInfo> allPerforInfo = performInfoService.getAllInfo();
+        return ResultUtils.messageB(ErrorCode.SYSTEM_ERROR,"服务调用错误错误");
     }
 
     @GetMapping("/getById")
